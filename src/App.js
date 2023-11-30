@@ -1,6 +1,7 @@
 import ToDo from './components/ToDo';
 import List from './components/List';
 import Scientists from './components/People/Scientists';
+import Select from './components/Form/select';
 import './App.css';
 
 function App() {
@@ -8,6 +9,8 @@ function App() {
     <div className="App">
      <ToDo />
      <List />
+     <Scientists />
+     <Select />
     </div>
   );
 }

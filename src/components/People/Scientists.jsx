@@ -1,4 +1,4 @@
-import people from "./Data";
+import { people } from "./Data";
 
 function getImageUrl(person) {
     return (
